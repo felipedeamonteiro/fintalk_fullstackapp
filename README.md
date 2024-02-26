@@ -1,4 +1,4 @@
-Stopped on 3:00:44 => Precisa rever o que foi feito pq o app não ta funcionando
+Stopped on 3:32:13 =>
 
 Para rodar o banco de dados rodar:
 1 - subir o container do docker compose:
