@@ -1,4 +1,4 @@
-Stopped on 3:32:13 =>
+Stopped on 4:21:41 => Manage Members Modal
 
 Para rodar o banco de dados rodar:
 1 - subir o container do docker compose:
