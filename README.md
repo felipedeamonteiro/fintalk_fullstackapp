@@ -1,4 +1,4 @@
-Stopped on 4:21:41 => Manage Members Modal
+Stopped on 4:41:55 => Manage Members Modal
 
 Para rodar o banco de dados rodar:
 1 - subir o container do docker compose:
@@ -12,4 +12,30 @@ npx prisma db push
 3 - Rodar o prisma studio pra ver o banco de dados:
 ```
 npx prisma studio
+```
+==================================
+
+Quando mudar alguma coisa no arquivo schema.prisma, deve rodar:
+```
+npx prisma generate
+```
+E depois
+```
+npx prisma db push
+```
+
+========================================
+
+Para resetar o banco de dados:
+
+```
+npx prisma migrate reset
+```
+Depois
+```
+npx prisma generate
+```
+E depois
+```
+npx prisma db push
 ```
