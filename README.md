@@ -1,4 +1,4 @@
-Stopped on 4:41:55 => Manage Members Modal
+Stopped on 5:13:53 => Create Channel Modal
 
 Para rodar o banco de dados rodar:
 1 - subir o container do docker compose:
@@ -13,7 +13,7 @@ npx prisma db push
 ```
 npx prisma studio
 ```
-==================================
+========================================
 
 Quando mudar alguma coisa no arquivo schema.prisma, deve rodar:
 ```
