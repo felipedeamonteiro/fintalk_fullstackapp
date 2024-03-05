@@ -39,3 +39,7 @@ E depois
 ```
 npx prisma db push
 ```
+
+
+# Importante
+Foi criado uma pasta "pages" por causa da biblioteca socket.io que está tendo problemas desde o next.13 com a pasta "app", então a pasta foi criada para evitar problemas
