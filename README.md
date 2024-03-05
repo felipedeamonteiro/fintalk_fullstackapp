@@ -1,4 +1,4 @@
-Stopped on 6:50:06 => Create Channel Modal
+Stopped on 8:50:08 => Create Channel Modal
 
 Para rodar o banco de dados rodar:
 1 - subir o container do docker compose:
