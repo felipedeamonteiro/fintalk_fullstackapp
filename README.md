@@ -40,6 +40,7 @@ E depois
 npx prisma db push
 ```
 
-
 # Importante
-Foi criado uma pasta "pages" por causa da biblioteca socket.io que está tendo problemas desde o next.13 com a pasta "app", então a pasta foi criada para evitar problemas
+1 - Foi criado uma pasta "pages" por causa da biblioteca socket.io que está tendo problemas desde o next.13 com a pasta "app", então a pasta foi criada para evitar problemas
+
+2 - Para fazer o deploy da aplicação foi necessário adicionar "secrets" relacionados a algumas variáveis da "Clerk" (lib de autenticação) no repositório.
